@@ -1,0 +1,36 @@
+Problem:    S2
+Rows:       4
+Columns:    4 (4 integer, 0 binary)
+Non-zeros:  16
+Status:     INTEGER OPTIMAL
+Objective:  Profit = 795 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Etape[A]                  120                         120 
+     2 Etape[B]                  105                         150 
+     3 Etape[C]                  179                         180 
+     4 Profit                    795                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 nbUnitesProduites[1]
+                    *              2             0            60 
+     2 nbUnitesProduites[2]
+                    *             32             0            55 
+     3 nbUnitesProduites[3]
+                    *             13             0            80 
+     4 nbUnitesProduites[4]
+                    *              0             0            70 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
